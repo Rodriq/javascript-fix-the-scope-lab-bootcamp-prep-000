@@ -25,10 +25,10 @@ var funkyFunction = function() {
   return function fun() {
     return "FUNKY!"
   }
-  funkyFunction.fun = funkyFunction
+  // funkyFunction.fun = funkyFunction
 }
 
 // We want to set theFunk equal to "FUNKY!" using our funkyFunction.
 // NOTE: you only need to modify the code below this line.
 
-  var theFunk = funkyFunction()
+  var theFunk = funkyFunction()()
